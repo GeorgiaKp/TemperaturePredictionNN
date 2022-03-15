@@ -1,1 +1,3 @@
-# TemperaturePredictionNN
+Finding the temperature value (C) with multiple linear regression in a dataset with meteorological data. The dataset contains hourly weather summaries in Szeged (Hungary) for the period 2006-2016.
+
+Initially the dataset has the following 12 columns: Formatted Date, Summary, Precip Type, Temperature (C), Apparent Temperature (C), Humidity, Wind Speed (km / h), Wind Bearing (degrees), Visibility (km), Loud Cover, Pressure (millibars), Daily Summary and 96453 record lines. Of these, the Daily Summary, Summary and Precip Type are categorical while the rest, except for Formatted Data, are numeric. Because the feauture Apparent Temperature (C) is highly correlated with Temperature (C) (as also shown in the graph diagrams) will be later droped in order to avoid overfitting.
